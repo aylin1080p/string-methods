@@ -64,4 +64,19 @@ for letterr in str11 {
     print(letterr,terminator:" - ") // divide a word and use -
 }
 
+//reverse the word without ready function
+
+var str12 = "Hello"
+var letters = [Character]()// empty character array
+
+for letter in str12 {
+    print(letter)
+    letters.append(letter)
+}
+
+print(letters)
+
+for i in stride(from: (letters.count - 1), through: 0, by: -1){
+    print( \(letters[i]), terminator: "" )
+}
 
