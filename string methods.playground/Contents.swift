@@ -55,3 +55,13 @@ if str9 == str10 {
 }else {
     print("\(str9) not same \(str10)")
 }
+
+
+// split a word
+
+let str11 = "Hello"
+for letterr in str11 {
+    print(letterr,terminator:" - ") // divide a word and use -
+}
+
+
